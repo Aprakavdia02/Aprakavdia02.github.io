@@ -1,0 +1,130 @@
+body{
+    line-height:2.3em;
+    height=100%;
+    padding:0;
+    margin:0;
+    background-color: rgb(97, 95, 95);
+  }
+  
+  .img1,.img2,.img3{
+    position:relative;
+    opacity:0.7;
+    background-color: rgb(97, 95, 95);
+    /*background-repeat:no-repeat;*/
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  
+  span{
+      font-size: 250%;
+  }
+
+  h3{
+      text-align: center;
+  }
+
+  .img1{
+    background-image: url(../Images/image1.jpg);
+    min-height:700px;
+  }
+  
+  
+  .img2{
+    background-image: url(../Images/image2.jpg);
+    min-height:500px;
+    
+  }
+  
+  .img3{
+    background-image: url(../Images/image3.jpg);
+    min-height:500px;
+    opacity: 0.9;
+   }
+  
+  .sec1{
+    min-height:300px;
+    background-color: rgb(97, 95, 95);
+    color: antiquewhite;
+    font-size: larger;
+  }
+
+  .sec1 p{
+      margin:2%;
+      text-align: center;
+  }
+  
+  .sec2{
+    min-height:300px;
+    padding:2%;
+    line-height: 300%;
+    background-color: rgb(97, 95, 95);
+    color: antiquewhite;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sec3{
+    min-height:300px;
+    background-color: rgb(97, 95, 95);
+    color: antiquewhite;
+  }
+  
+  
+  footer{
+    background-color:rgb(97, 95, 95);
+    min-height:200px;
+    text-align: center;
+    border-top: 10px solid black;
+  }
+
+
+  .icon a{
+    font-size: large;
+    text-decoration: none;
+    margin:2%;
+    padding:1%;
+    color: black;
+    transition: transform 0.3s ease-out;
+}
+
+
+.icon a:hover{
+    
+   font-size: xx-large;
+  
+}
+
+
+.para{
+
+  border:1px solid black;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: large;
+  padding:5%;
+  color:white;
+}
+
+
+.container{
+
+  display: inline-flex;
+  margin:5%;
+  font-size: smaller;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2% solid black;
+}
+
+.card1,.card2,.card3{
+  padding: 2%;
+  margin: 2%;
+  
+}
